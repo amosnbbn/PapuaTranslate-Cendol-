@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login — PapuaTranslate</title>
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+    body{background:#f8f9fa;color:#333}
+    .wrap{max-width:960px;margin:0 auto;padding:24px}
+    header{background:#fff;padding:14px 0;box-shadow:0 2px 10px rgba(0,0,0,.08);margin-bottom:24px}
+    .hc{display:flex;justify-content:space-between;align-items:center}
+    h1{font-size:24px}
+    a{color:#000;text-decoration:none}
+    .card{max-width:460px;margin:32px auto;background:#fff;border:1px solid #e5e7eb;border-radius:10px;padding:20px;box-shadow:0 2px 8px rgba(0,0,0,.06)}
+    label{display:block;margin:10px 0 4px;font-weight:600}
+    input{width:100%;padding:12px;border:1px solid #ddd;border-radius:8px}
+    button{width:100%;margin-top:14px;padding:12px;background:#000;color:#fff;border:0;border-radius:8px;cursor:pointer}
+    .note{margin-top:10px;font-size:14px;color:#666;text-align:center}
+    .flash{margin-top:10px;padding:10px;border-radius:6px;font-size:14px;background:#fdecec;color:#a02222;border:1px solid #f5b5b5}
+    .hint{margin-top:14px;text-align:center;font-size:14px;color:#555}
+    .hint a{color:#000;text-decoration:underline}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap hc">
+      <h1>PapuaTranslate</h1>
+      <a href="/register">Register</a>
+    </div>
+  </header>
+
+  <div class="wrap">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        {% for cat, msg in messages %}
+          <div class="flash">{{ msg }}</div>
+        {% endfor %}
+      {% endif %}
+    {% endwith %}
+
+    <div class="card">
+      <h2 style="margin-bottom:10px">Masuk</h2>
+      <form method="post" action="/login">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="email@example.com" required/>
+        <label>Password</label>
+        <input type="password" name="password" placeholder="password" required/>
+        <button type="submit">Login</button>
+      </form>
+      <p class="note">Belum punya akun? <a href="/register">Register</a></p>
+
+      {% if public_app_url %}
+        <div class="hint">
+          
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</body>
+</html>
