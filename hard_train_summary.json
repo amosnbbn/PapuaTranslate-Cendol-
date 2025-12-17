@@ -1,0 +1,17 @@
+{
+  "size_pool": 1738,
+  "picked": 250,
+  "top_n": 250,
+  "echo_jaccard_min": 0.5,
+  "short_src_max_tok": 6,
+  "chrF_cut": 35.0,
+  "fast_mode": false,
+  "gen_cfg": {
+    "num_beams": 4,
+    "length_penalty": 0.95,
+    "no_repeat_ngram_size": 3,
+    "min_new_tokens": 4,
+    "max_new_tokens": 64,
+    "early_stopping": true
+  }
+}

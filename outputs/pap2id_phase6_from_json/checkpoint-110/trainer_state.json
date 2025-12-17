@@ -1,0 +1,76 @@
+{
+  "best_metric": 6.807866123193066,
+  "best_model_checkpoint": "C:/cendol-mt5/outputs/pap2id_phase6_from_json\\checkpoint-110",
+  "epoch": 1.9864559819413092,
+  "eval_steps": 500,
+  "global_step": 110,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.9029345372460497,
+      "grad_norm": 0.43215078115463257,
+      "learning_rate": 3.885135135135135e-06,
+      "loss": 2.4311,
+      "step": 50
+    },
+    {
+      "epoch": 0.9932279909706546,
+      "eval_bleu": 6.035376765615006,
+      "eval_chrf": 30.704184656488092,
+      "eval_loss": 2.131387233734131,
+      "eval_runtime": 1110.5035,
+      "eval_samples_per_second": 0.199,
+      "eval_steps_per_second": 0.05,
+      "step": 55
+    },
+    {
+      "epoch": 1.8058690744920993,
+      "grad_norm": 0.4940997362136841,
+      "learning_rate": 2.195945945945946e-06,
+      "loss": 2.4226,
+      "step": 100
+    },
+    {
+      "epoch": 1.9864559819413092,
+      "eval_bleu": 6.807866123193066,
+      "eval_chrf": 33.23837827949966,
+      "eval_loss": 2.107842206954956,
+      "eval_runtime": 895.1492,
+      "eval_samples_per_second": 0.247,
+      "eval_steps_per_second": 0.063,
+      "step": 110
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 165,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 3,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 2,
+        "early_stopping_threshold": 0.0
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 0
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 247659627396096.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

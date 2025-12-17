@@ -1,0 +1,28 @@
+# Base image Python minimal
+FROM python:3.11-slim
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
+
+# Dependensi sistem (psycopg2 & build)
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    build-essential git curl libpq-dev \
+ && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+
+# Install deps lebih dulu (biar cache efektif)
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy source code & assets
+COPY . .
+
+# Port default; di Spaces akan override via $PORT
+ENV PORT=7860
+
+# Jalankan via gunicorn (WSGI)
+CMD ["bash","-lc","exec gunicorn -w 1 -k gthread -t 180 -b 0.0.0.0:$PORT app:app"]
+ 

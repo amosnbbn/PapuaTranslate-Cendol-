@@ -1,0 +1,59 @@
+{
+  "best_metric": 5.669588474417987,
+  "best_model_checkpoint": "C:\\cendol-mt5\\outputs\\pap2id_lora_push\\checkpoint-40",
+  "epoch": 0.9815950920245399,
+  "eval_steps": 500,
+  "global_step": 40,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.024539877300613498,
+      "grad_norm": 0.29819706082344055,
+      "learning_rate": 5.208333333333333e-08,
+      "loss": 3.225,
+      "step": 1
+    },
+    {
+      "epoch": 0.9815950920245399,
+      "eval_bleu": 5.669588474417987,
+      "eval_chrf": 20.224966219344566,
+      "eval_loss": 3.3873977661132812,
+      "eval_runtime": 32.9402,
+      "eval_samples_per_second": 3.461,
+      "eval_steps_per_second": 0.88,
+      "step": 40
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 160,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 4,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 2,
+        "early_stopping_threshold": 0.0
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 0
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 94324394022912.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "input": "Sayang kalo bosan ko bilang",
+    "pred": "Sayang kalau bosan kok bilang Keluaran?",
+    "gold": "Sayang, kalau bosan bilang saja"
+  },
+  {
+    "input": "sa yang su kopeng harga diri lapis belis",
+    "pred": "satu yang paling tinggi harga diri lapis belis",
+    "gold": "aku yang sudah pegang harga diri setara mas kawin"
+  },
+  {
+    "input": "Jang ko marah-marah trus a",
+    "pred": "Baiklah, jangan marah-marah lagi ya",
+    "gold": "Jangan kamu marah-marah terus ah"
+  },
+  {
+    "input": "Ko su ke warung?",
+    "pred": "Kalau begitu ke warung?",
+    "gold": "Apakah kamu pergi ke warung?"
+  },
+  {
+    "input": "Sa fly lepas cinta itu yang ko minta",
+    "pred": "Sebuah fly lepas cinta itu yang kau minta keluaran",
+    "gold": "Aku terbang melepaskan cinta, itu yang kau minta"
+  },
+  {
+    "input": "Tapi mungkin de yang ko impikan",
+    "pred": "Tentu saja tidak, tetapi mungkin itu yang kamu impikan.",
+    "gold": "Tapi mungkin dia yang kamu impikan"
+  },
+  {
+    "input": "Ko tra bisa hidup tanpa dia (tra bisa hidup)",
+    "pred": "Tidak ada yang bisa hidup tanpanya",
+    "gold": "Kamu tak bisa hidup tanpa dia"
+  },
+  {
+    "input": "Cukup ko dalam mimpi, kini dan nanti",
+    "pred": "Sudah cukup dalam mimpi, sekarang dan nanti",
+    "gold": "Cukup kamu dalam mimpi, kini dan nanti."
+  },
+  {
+    "input": "Sa su berusaha kasih yang ko mau",
+    "pred": "Baiklah, Bu. Berusahalah memberikan yang kamu mau Keluaran.",
+    "gold": "Aku sudah berusaha memberi yang kamu mau"
+  },
+  {
+    "input": "Sayang sa su lelah (Sa su lelah)",
+    "pred": "Sayang sepuasnya (Sepuasnya)",
+    "gold": "Sayang aku sudah lelah (aku sudah lelah)"
+  },
+  {
+    "input": "Yang pu sagu de su putar akan jadi papeda",
+    "pred": "Yang satu sagu de su putar akan menjadi sepeda",
+    "gold": "Sesuatu yang dulu kita putar, sekarang jadi tak berarti"
+  },
+  {
+    "input": "Yakin ade jadi takdir, amin ade yang terakhir",
+    "pred": "Yakin ada jadi takdir, amin ada yang terakhir keluaran:",
+    "gold": "Yakin kamu jadi takdir, amin kamu yang terakhir"
+  },
+  {
+    "input": "Kita bakudapa di jalan tadi.",
+    "pred": "Baiklah, Pak Klutut.",
+    "gold": "Kita bertemu di jalan tadi."
+  },
+  {
+    "input": "Pigi pigi ko ikut ko pu Mau pergi-pergi",
+    "pred": "Lalu ia melanjutkan perjalanannya.",
+    "gold": "kamu ikut, kau pun ikut juga"
+  },
+  {
+    "input": "Sa pergi ke kantor pos",
+    "pred": "Baik. Teks berikut sudah berbahasa Indonesia",
+    "gold": "Saya pergi ke kantor pos"
+  },
+  {
+    "input": "Sa mau di rumah saja",
+    "pred": "Baiklah, Pak. Jawabnya:",
+    "gold": "Saya ingin tinggal di rumah saja"
+  },
+  {
+    "input": "Karna alasan tra kabari",
+    "pred": "Sebagai gantinya, saya mohon maaf atas alasan tra kabari.",
+    "gold": "Karena alasan tidak memberi kabar."
+  },
+  {
+    "input": "Sa hancur parah karna ko",
+    "pred": "Saya hancur parah karena ini",
+    "gold": "Aku hancur parah karena kamu"
+  },
+  {
+    "input": "Mo tampeleng tapi sio sa pu sayang e",
+    "pred": "Baiklah, berikut hasilnya: Jangan keseringan tapi pikirkan sepuasnya",
+    "gold": "Ingin membalas tapi aku tetap sayang"
+  },
+  {
+    "input": "Sa janji trakan mabuk mabuk lagi",
+    "pred": "Saya janji trakan mabuk lagi",
+    "gold": "Aku berjanji tidak mabuk-mabukan lagi"
+  }
+]

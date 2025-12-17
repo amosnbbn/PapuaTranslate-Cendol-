@@ -1,0 +1,10 @@
+trainable params: 884,736 || all params: 583,286,016 || trainable%: 0.1517
+Map: 100%|█████████████████████████████████████████████████████████████████████████| 1769/1769 [00:00<00:00, 7586.44 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████| 221/221 [00:00<00:00, 3598.89 examples/s]
+Map: 100%|███████████████████████████████████████████████████████████████████████████| 222/222 [00:00<00:00, 4026.97 examples/s]
+[INFO] Truncated -> src: 0 | tgt: 0
+C:\cendol-mt5\train_phase7_e10_wandb.py:223: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Seq2SeqTrainer.__init__`. Use `processing_class` instead.
+  trainer = Seq2SeqTrainer(
+ 10%|█████████                                                                                 | 56/560 [02:15<18:18,  2.18s/it]
+{'loss': 2.3529, 'grad_norm': 0.4444904029369354, 'learning_rate': 2.6250000000000003e-06, 'epoch': 0.9}
+ 21%|███████████████████▌                                                                       | 12/56 [00:33<01:27,  1.99s/it]

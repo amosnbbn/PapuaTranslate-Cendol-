@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+  <meta name="color-scheme" content="light"/>
+  <title>PapuaTranslate — Translasi Dialek Papua</title>
+  <style>
+    :root{
+      --bg:#f6f7f9; --card:#fff; --ink:#111; --sub:#666; --line:#e9ecef;
+      --shadow:0 8px 24px rgba(0,0,0,.08); --brand:#000; --brand-ink:#fff;
+      --radius:14px; --gap:clamp(12px,2vw,20px); --pad:clamp(12px,2.5vw,20px);
+      --maxw:1120px; --fx:clamp(14px,2.6vw,16px);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Noto Sans,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;font-size:var(--fx)}
+    a{color:inherit;text-decoration:none}
+    
+    /* Header Responsif */
+    header{position:sticky;top:0;z-index:50;background:var(--card);box-shadow:0 4px 16px rgba(0,0,0,.06);backdrop-filter:blur(8px)}
+    .nav{max-width:var(--maxw);margin:auto;display:flex;align-items:center;gap:10px;justify-content:space-between;padding:var(--pad)}
+    .logo{font-weight:800;font-size:clamp(18px,4vw,24px);white-space:nowrap;cursor:pointer;transition:all 0.2s ease}
+    .logo:hover{transform:translateY(-1px);opacity:0.8}
+    
+    /* Menu Responsif */
+    .menu{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+    .pill{display:inline-flex;align-items:center;justify-content:center;padding:8px 16px;border:1px solid var(--ink);border-radius:999px;min-height:42px;font-size:clamp(13px,3vw,15px);white-space:nowrap;transition:all 0.2s ease}
+    .pill:hover{background:var(--ink);color:#fff;transform:translateY(-1px)}
+    .badge{background:#000;color:#fff;border-radius:999px;padding:6px 10px;font-size:12px;min-width:24px;text-align:center;font-weight:600}
+
+    /* Mobile Menu */
+    .menu-toggle{display:none;flex-direction:column;gap:3px;background:none;border:none;cursor:pointer;padding:8px;width:32px;height:32px;align-items:center;justify-content:center}
+    .menu-toggle span{width:20px;height:2px;background:var(--ink);transition:0.3s;transform-origin:center}
+    .menu-toggle.active span:nth-child(1){transform:rotate(45deg) translate(6px,6px)}
+    .menu-toggle.active span:nth-child(2){opacity:0}
+    .menu-toggle.active span:nth-child(3){transform:rotate(-45deg) translate(6px,-6px)}
+
+    /* Hero Responsif */
+    .hero{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--card)}
+    .hero-inner{max-width:var(--maxw);margin:auto;text-align:center;padding:clamp(16px,6vw,30px) var(--pad)}
+    .hero h1{margin:0 0 6px;font-size:clamp(20px,6vw,32px);line-height:1.3}
+    .hero p{margin:0;color:var(--sub);font-size:clamp(13px,3.5vw,15px);max-width:600px;margin-inline:auto}
+
+    /* Main Content */
+    .wrap{max-width:var(--maxw);margin:auto;padding:var(--pad)}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow)}
+    .card-pad{padding:var(--pad)}
+    .title{margin:0 0 12px;text-align:center;font-weight:800;font-size:clamp(16px,4.5vw,20px)}
+
+    /* Translator Responsif */
+    .input-group{margin-bottom:16px}
+    .lbl{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:8px;color:#222;font-weight:700;font-size:clamp(13px,3.6vw,15px);gap:8px}
+    .hint{font-size:clamp(11px,3.2vw,13px);color:var(--sub)}
+    textarea{
+      width:100%;min-height:clamp(120px,25vh,200px);resize:vertical;border:1px solid #ddd;border-radius:12px;
+      padding:14px 12px;font-size:clamp(14px,3.6vw,16px);background:#fafafa;outline:none;transition:border .2s,background .2s;
+      font-family:inherit;
+    }
+    textarea:focus{border-color:#555;background:#fff;box-shadow:0 0 0 2px rgba(0,0,0,0.1)}
+    .btn{
+      width:100%;display:inline-flex;align-items:center;justify-content:center;gap:10px;
+      padding:clamp(12px,3.5vw,14px);border:none;border-radius:12px;background:var(--brand);color:var(--brand-ink);
+      font-weight:700;cursor:pointer;touch-action:manipulation;min-height:48px;font-size:clamp(14px,3.6vw,16px);
+      transition:all 0.2s ease;
+    }
+    .btn:hover:not([disabled]){transform:translateY(-1px);box-shadow:0 4px 12px rgba(0,0,0,0.15)}
+    .btn[disabled]{opacity:.6;cursor:not-allowed;transform:none}
+    .result{border:1px solid var(--line);background:#fafafa;border-radius:12px;padding:14px;min-height:clamp(84px,16vh,120px)}
+    .result h4{margin:0 0 6px;font-size:clamp(12px,3.2vw,13px);color:var(--sub)}
+    .result-text{font-size:clamp(14px,3.6vw,16px);white-space:pre-wrap;color:#000;line-height:1.5}
+    .note{font-size:clamp(11px,3vw,12px);color:var(--sub);margin-top:8px;text-align:center}
+
+    /* History Responsif */
+    .history{margin-top:var(--gap)}
+    .list{margin:0;padding-left:20px}
+    .list li{margin-bottom:8px;font-size:clamp(13px,3.5vw,15px);line-height:1.4}
+    .list li small{font-size:clamp(11px,3vw,12px);color:var(--sub)}
+
+    /* Footer */
+    footer{margin-top:var(--gap);background:var(--card);border-top:1px solid var(--line)}
+    .foot{max-width:var(--maxw);margin:auto;padding:var(--pad);text-align:center}
+    .copy{font-size:clamp(11px,3vw,12px);color:var(--sub)}
+
+    /* Mobile Styles */
+    @media (max-width: 768px) {
+      .nav{flex-wrap:wrap;gap:12px}
+      .menu-toggle{display:flex}
+      .menu{display:none;width:100%;flex-direction:column;gap:8px;margin-top:12px}
+      .menu.active{display:flex}
+      .pill{justify-content:center;min-height:44px;font-size:15px;padding:10px 16px}
+      
+      .hero-inner{padding:clamp(14px,5vw,24px) var(--pad)}
+      .hero h1{font-size:clamp(18px,5vw,24px)}
+      
+      .lbl{flex-direction:column;align-items:flex-start;gap:4px}
+      .hint{margin-left:0}
+      
+      textarea{min-height:100px;font-size:16px} /* Prevent zoom on iOS */
+    }
+
+    @media (max-width: 480px) {
+      .nav{padding:12px}
+      .logo{font-size:16px}
+      .pill{padding:12px 16px;font-size:14px}
+      
+      .hero h1{font-size:20px}
+      .hero p{font-size:13px}
+      
+      .card-pad{padding:16px}
+      .title{font-size:18px}
+      
+      .list{padding-left:16px}
+      .list li{font-size:14px}
+    }
+
+    /* Safe area untuk iPhone */
+    body{padding-bottom:env(safe-area-inset-bottom)}
+    header{padding-top:env(safe-area-inset-top)}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="nav" role="navigation" aria-label="Menu utama">
+    <a href="/" class="logo" aria-label="PapuaTranslate - Kembali ke beranda">PapuaTranslate</a>
+    
+    <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+    
+    <nav class="menu">
+      <a class="pill" href="/">Home</a>
+      <a class="pill" href="/about">About</a>
+      <a class="pill" href="/#history">History</a>
+      {% if logged_in %}
+        <span class="badge" aria-label="Status login aktif">Aktif</span>
+        <a class="pill" href="/logout">Logout</a>
+      {% else %}
+        <a class="pill" href="/login">Login</a>
+        <a class="pill" href="/register">Daftar</a>
+      {% endif %}
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <h1>Translasi Dialek Papua → Bahasa Indonesia Baku</h1>
+    
+  </div>
+</section>
+
+<main class="wrap">
+  <!-- Translator: full width -->
+  <section class="card card-pad" id="translator">
+    <h2 class="title">Alat Translasi</h2>
+
+    <div class="input-group">
+      <div class="lbl">
+        <label for="papua-input">Bahasa Papua</label>
+        <span class="hint">Masukkan teks berlogat Papua</span>
+      </div>
+      <textarea id="papua-input" inputmode="text" autocomplete="off" spellcheck="false" placeholder="Contoh: 'ko su makan' → 'Kamu sudah makan.'"></textarea>
+    </div>
+
+    <button class="btn" id="translate-btn" onclick="translateText()" aria-label="Terjemahkan">
+      <span id="btn-text">Terjemahkan</span>
+      <span id="btn-spin" aria-hidden="true" style="display:none">⏳</span>
+    </button>
+
+    <div class="input-group" style="margin-top:16px">
+      <div class="lbl">
+        <label for="indonesia-output">Bahasa Indonesia Baku</label>
+        <span class="hint">Hasil terjemahan</span>
+      </div>
+      <div class="result" id="indonesia-output-wrap">
+        <h4>Terjemahan:</h4>
+        <div id="indonesia-output" class="result-text">Hasil terjemahan akan ditampilkan di sini…</div>
+      </div>
+      <p class="note">Device: {{ device }}</p>
+    </div>
+  </section>
+
+  <!-- History under translator -->
+  <section class="card card-pad history" id="history" aria-live="polite">
+    <h2 class="title">Riwayat Terakhir</h2>
+    <ul class="list" id="history-list">
+      {% for it in recent %}
+        <li><b>{{ it.src }}</b> → {{ it.mt }} <small>({{ it.created_at }})</small></li>
+      {% endfor %}
+      {% if not recent %}
+        <li class="note">(Belum ada riwayat.)</li>
+      {% endif %}
+    </ul>
+  </section>
+</main>
+
+<footer>
+  <div class="foot">
+    <div class="copy">© 2025 PapuaTranslate.</div>
+  </div>
+</footer>
+
+<script>
+  // Mobile menu toggle
+  const menuToggle = document.querySelector('.menu-toggle');
+  const menu = document.querySelector('.menu');
+  
+  menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+    const expanded = menu.classList.contains('active');
+    menuToggle.setAttribute('aria-expanded', expanded);
+  });
+
+  // Auto-resize textarea
+  const ta = document.getElementById('papua-input');
+  function autoresize(){ 
+    ta.style.height='auto'; 
+    ta.style.height=(ta.scrollHeight + 6)+'px'; 
+  }
+  ta.addEventListener('input', autoresize); 
+  window.addEventListener('load', autoresize);
+
+  async function translateText() {
+    const input = document.getElementById('papua-input');
+    const out = document.getElementById('indonesia-output');
+    const btn = document.getElementById('translate-btn');
+    const btnText = document.getElementById('btn-text');
+    const btnSpin = document.getElementById('btn-spin');
+
+    const text = input.value.trim();
+    if (!text) { 
+      out.textContent = "Silakan masukkan teks logat Papua."; 
+      input.focus(); 
+      return; 
+    }
+
+    out.textContent = "Menerjemahkan…";
+    btn.disabled = true; 
+    btnText.style.display='none'; 
+    btnSpin.style.display='inline';
+
+    try {
+      const r = await fetch('/translate', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        credentials: 'same-origin',
+        body: JSON.stringify({ text, max_new_tokens: 24 })
+      });
+      const data = await r.json();
+      if (r.ok && data && (data.mt || data.result)) {
+        out.textContent = data.mt || data.result;
+        loadHistory();
+        // Scroll ke hasil di layar kecil
+        if (window.innerWidth < 768) {
+          document.getElementById('indonesia-output-wrap').scrollIntoView({
+            behavior: 'smooth', 
+            block: 'center'
+          });
+        }
+      } else {
+        out.textContent = 'Error: ' + ((data && (data.error || data.detail)) || 'Terjadi kesalahan.');
+      }
+    } catch (e) {
+      out.textContent = 'Gagal terhubung ke server.';
+    } finally {
+      btn.disabled = false; 
+      btnText.style.display='inline'; 
+      btnSpin.style.display='none';
+    }
+  }
+
+  async function loadHistory() {
+    try {
+      const r = await fetch('/history', { credentials: 'same-origin' });
+      if (!r.ok) return;
+      const j = await r.json();
+      const ul = document.getElementById('history-list');
+      ul.innerHTML = '';
+      if (!j.items || j.items.length === 0) {
+        ul.innerHTML = '<li class="note">(Belum ada riwayat.)</li>';
+        return;
+      }
+      for (const it of j.items) {
+        const li = document.createElement('li');
+        li.innerHTML = `<b>${it.src}</b> → ${it.mt} <small>(${it.created_at})</small>`;
+        ul.appendChild(li);
+      }
+    } catch(e) {}
+  }
+
+  // Ctrl/Cmd + Enter shortcut
+  ta.addEventListener('keydown', (e)=>{
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) translateText();
+  });
+
+  // Close mobile menu when clicking outside
+  document.addEventListener('click', (e) => {
+    if (!menu.contains(e.target) && !menuToggle.contains(e.target)) {
+      menu.classList.remove('active');
+      menuToggle.classList.remove('active');
+      menuToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+</script>
+</body>
+</html>

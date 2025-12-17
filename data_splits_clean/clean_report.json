@@ -1,0 +1,9 @@
+{
+  "before_rows": 2342,
+  "after_rows": 2057,
+  "train": 1543,
+  "valid": 195,
+  "test": 298,
+  "avg_src_len": 5.395235780262518,
+  "avg_tgt_len": 5.276616431696645
+}

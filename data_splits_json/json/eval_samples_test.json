@@ -1,0 +1,1207 @@
+{
+  "split": "test",
+  "bleu": 18.286706865875583,
+  "chrf": 49.20750763080988,
+  "samples": [
+    {
+      "pred": "Tidak habis Ko yang menentukan semua yang bukan Keluaran:",
+      "refs": [
+        "Bukan berakhir, kamu yang tentukan semuanya"
+      ]
+    },
+    {
+      "pred": "Berangkatlah ke hutan sore",
+      "refs": [
+        "Kami pergi ke hutan sore"
+      ]
+    },
+    {
+      "pred": "teman hati sakit",
+      "refs": [
+        "Temani hati yang terluka"
+      ]
+    },
+    {
+      "pred": "Nikmat ini sedap ya Asmter Gank Keluaran:",
+      "refs": [
+        "Nikmat ini sedap, dari Amster Gank"
+      ]
+    },
+    {
+      "pred": "Laci sayur di lemari",
+      "refs": [
+        "Tidak ada sayur di lemari"
+      ]
+    },
+    {
+      "pred": "Pertama kali tatap muka",
+      "refs": [
+        "Saat pertama kali bertatap muka"
+      ]
+    },
+    {
+      "pred": "Kalau ini tra pernah ada rasa Keluaran:",
+      "refs": [
+        "Bahwa kamu tidak pernah punya perasaan"
+      ]
+    },
+    {
+      "pred": "Kami melakukan latihan senam pagi",
+      "refs": [
+        "Mereka berlatih senam pagi"
+      ]
+    },
+    {
+      "pred": "Berikut ini adalah daftar pertanyaan-pertanyaan yang dapat dijawab oleh para pembaca.",
+      "refs": [
+        "Kamu tidak bisa ikut"
+      ]
+    },
+    {
+      "pred": "Ini termasuk dua hubungan Keluaran:",
+      "refs": [
+        "Untuk hubungan kita berdua"
+      ]
+    },
+    {
+      "pred": "Sa su curiga pas di waktu sayang-sayangnya",
+      "refs": [
+        "Aku sudah curiga saat masa-masa sayang itu"
+      ]
+    },
+    {
+      "pred": "Selebihnya lebih baik, wangi wiro tra menarik",
+      "refs": [
+        "Orangtuaku lebih baik; bau minuman itu tidak menarik"
+      ]
+    },
+    {
+      "pred": "Aeh biar sudah se permisi lewat Keluaran:",
+      "refs": [
+        "Ya sudah, aku pamit pergi"
+      ]
+    },
+    {
+      "pred": "Berikut ini adalah beberapa pertanyaan yang perlu dipikirkan.",
+      "refs": [
+        "Kamu tidak pikirkan saya"
+      ]
+    },
+    {
+      "pred": "Saya pergi ke sekolah Keluaran:",
+      "refs": [
+        "Saya pergi ke sekolah"
+      ]
+    },
+    {
+      "pred": "Yang satu sagu de su putar akan menjadi sepeda",
+      "refs": [
+        "Sesuatu yang dulu kita putar, sekarang jadi tak berarti"
+      ]
+    },
+    {
+      "pred": "Sa menyapu halaman Keluaran:",
+      "refs": [
+        "Saya menyapu halaman"
+      ]
+    },
+    {
+      "pred": "Apakah kamu sudah bekerja?",
+      "refs": [
+        "Apakah kamu bekerja?"
+      ]
+    },
+    {
+      "pred": "Tidak ada seorang pun yang dapat melakukannya.",
+      "refs": [
+        "Sial Sangat mempesona sekali"
+      ]
+    },
+    {
+      "pred": "lengkapi hari dalam suka dan lelah",
+      "refs": [
+        "Melengkapi hari-hari dalam suka dan lelah"
+      ]
+    },
+    {
+      "pred": "Setelah makan siang sore hari Keluaran:",
+      "refs": [
+        "Mereka minum kopi sore hari"
+      ]
+    },
+    {
+      "pred": "Pokok-pokok Bahasa Indonesia:",
+      "refs": [
+        "Besar"
+      ]
+    },
+    {
+      "pred": "Sedang makan malam di dapur",
+      "refs": [
+        "Saya makan malam di dapur"
+      ]
+    },
+    {
+      "pred": "Apakah kamu membeli buah?",
+      "refs": [
+        "Apakah kamu membeli buah?"
+      ]
+    },
+    {
+      "pred": "Baiklah, Pak.",
+      "refs": [
+        "Bro, mantap!"
+      ]
+    },
+    {
+      "pred": "Apakah ini memang tra sayang se?",
+      "refs": [
+        "Apakah kamu memang tidak sayang padaku"
+      ]
+    },
+    {
+      "pred": "Apakah kamu mau ikut bermain?",
+      "refs": [
+        "Apakah kamu mau ikut bermain?"
+      ]
+    },
+    {
+      "pred": "Satu tra sekolah hari ini",
+      "refs": [
+        "Saya tidak sekolah hari ini"
+      ]
+    },
+    {
+      "pred": "Saya mendengar musik jazz",
+      "refs": [
+        "Mereka mendengarkan musik jazz"
+      ]
+    },
+    {
+      "pred": "Bukan angka dagu bukan pula asal lagu",
+      "refs": [
+        "Bukan angka dagu bukan pula asal lagu"
+      ]
+    },
+    {
+      "pred": "Dimana tra melihat kunci motor?",
+      "refs": [
+        "Kamu tidak lihat kunci motor saya?"
+      ]
+    },
+    {
+      "pred": "Bagian tengah kopi hitam di meja Keluaran:",
+      "refs": [
+        "Tidak ada kopi hitam di meja"
+      ]
+    },
+    {
+      "pred": "Jangan pergi ke pasar malam",
+      "refs": [
+        "Kami mau pergi ke pasar malam"
+      ]
+    },
+    {
+      "pred": "Lama tak bersama rindu yang hantui rasa",
+      "refs": [
+        "Lama tak bersama, rindu menghantui perasaan."
+      ]
+    },
+    {
+      "pred": "Yeiy cinta ini punya Keluaran:",
+      "refs": [
+        "Yeiy cinta yang kamu punya"
+      ]
+    },
+    {
+      "pred": "Sedang bermain gitar pagi",
+      "refs": [
+        "Mereka bermain gitar pagi"
+      ]
+    },
+    {
+      "pred": "Rasa naiknya laut ini strika",
+      "refs": [
+        "Aduh, kalau laut bergelombang kau setrika"
+      ]
+    },
+    {
+      "pred": "Alat masak nasi putih",
+      "refs": [
+        "Kami memasak nasi putih"
+      ]
+    },
+    {
+      "pred": "Lama-kelamaan rasa ini tidak tahan",
+      "refs": [
+        "Lama aku tahan perasaan ini"
+      ]
+    },
+    {
+      "pred": "Apakah Anda tahu berita?",
+      "refs": [
+        "Apakah kamu sudah tahu berita?"
+      ]
+    },
+    {
+      "pred": "Lupa jarak yang aku peluk angan tapi tak bisa-bisa",
+      "refs": [
+        "Melupakan jarak, memeluk angan tapi tetap tak bisa."
+      ]
+    },
+    {
+      "pred": "Trans bisa putar ulang kembali yang lama",
+      "refs": [
+        "Tidak bisa memutar ulang masa lalu"
+      ]
+    },
+    {
+      "pred": "Kalau kamu juga punya hati, pasti kamu mengerti ini",
+      "refs": [
+        "Kamu juga punya hati, pasti kamu mengerti ini."
+      ]
+    },
+    {
+      "pred": "Perlahan-lahan nyata yang sedang melihat Keluaran:",
+      "refs": [
+        "Perlahan saya lihat kenyataannya"
+      ]
+    },
+    {
+      "pred": "Sudah ada janji Anjani Keluaran:",
+      "refs": [
+        "Aku ada dengan janji Anjani"
+      ]
+    },
+    {
+      "pred": "Baiklah, coba percaya saja",
+      "refs": [
+        "Jangan curiga dan cobalah percaya"
+      ]
+    },
+    {
+      "pred": "Seperti dari dulu tra bisa hilang dari benak",
+      "refs": [
+        "Seperti sejak dulu tidak bisa hilang dari pikiranku"
+      ]
+    },
+    {
+      "pred": "Anda tidak boleh mengambil sesuatu.",
+      "refs": [
+        "Kamu jangan ambil barang saya sembarangan."
+      ]
+    },
+    {
+      "pred": "Yang penting adalah menemani Keluaran",
+      "refs": [
+        "Penting kamu menemaniku"
+      ]
+    },
+    {
+      "pred": "Meskipun hati berat untuk melepaskan",
+      "refs": [
+        "Walau hati berat untuk aku lepaskan"
+      ]
+    },
+    {
+      "pred": "Sedang bermain kartu dengan teman-teman Keluaran:",
+      "refs": [
+        "Saya bermain kartu dengan teman"
+      ]
+    },
+    {
+      "pred": "Berikut adalah dua contoh berikut ini:",
+      "refs": [
+        "Akhirnya kita berdua jadi pasangan"
+      ]
+    },
+    {
+      "pred": "Terjemahan Bahasa Indonesia: Apa mungkin semua ini akan berakhir",
+      "refs": [
+        "Apakah semua ini akan berakhir"
+      ]
+    },
+    {
+      "pred": "Dan bagusnya sedari awal tara brikan cinta sepenuhnya",
+      "refs": [
+        "Seharusnya dari awal kamu tidak beri cinta sepenuhnya"
+      ]
+    },
+    {
+      "pred": "Terima kasih, Pak Klutut.",
+      "refs": [
+        "Kamu yang aku ingini"
+      ]
+    },
+    {
+      "pred": "Apakah kamu sudah bangun pagi-pagi?",
+      "refs": [
+        "Apakah kamu bangun pagi?"
+      ]
+    },
+    {
+      "pred": "Kalau ini banyak cenda",
+      "refs": [
+        "Jika kamu terlalu banyak bercanda"
+      ]
+    },
+    {
+      "pred": "Bahasa inggrisnya: Bahasa minangkabau",
+      "refs": [
+        "Kehausan akan kasih sayang"
+      ]
+    },
+    {
+      "pred": "Anjani Anjani bagaimana ini oh Keluaran?",
+      "refs": [
+        "Anjani, Anjani, bagaimana ini oh?"
+      ]
+    },
+    {
+      "pred": "Sa su hafal mati",
+      "refs": [
+        "Aku benar-benar hafal"
+      ]
+    },
+    {
+      "pred": "Setelah selesai dinyanyikan, ia melanjutkan dengan nyanyian sambil berteriak-teriak.",
+      "refs": [
+        "Lagu berbunyi , gendang berdendang"
+      ]
+    },
+    {
+      "pred": "Biru yang pucat di tengah panas merahnya jingga",
+      "refs": [
+        "Warna pucat di tengah panas cinta yang membara"
+      ]
+    },
+    {
+      "pred": "Su tra bisa lagi bersama",
+      "refs": [
+        "Aku tidak bisa lagi bersama"
+      ]
+    },
+    {
+      "pred": "Mungkin ini trabisa jadi satu puloh lemak",
+      "refs": [
+        "Mungkin kamu memang bukan untukku"
+      ]
+    },
+    {
+      "pred": "Apakah kamu pergi ke sekolah?",
+      "refs": [
+        "Apakah kamu pergi ke sekolah?"
+      ]
+    },
+    {
+      "pred": "Silahkan duduk di bawah kursi.",
+      "refs": [
+        "Biar saya yang mengurus"
+      ]
+    },
+    {
+      "pred": "Kalau kamu mandi?",
+      "refs": [
+        "Apakah kamu sudah mandi?"
+      ]
+    },
+    {
+      "pred": "Apakah anda sedang latihan gitar?",
+      "refs": [
+        "Apakah kamu latihan gitar?"
+      ]
+    },
+    {
+      "pred": "Sama-sama jaga cinta ini yang kandung pada Keluaran",
+      "refs": [
+        "Sama-sama jaga cinta kamu itu yang punya"
+      ]
+    },
+    {
+      "pred": "sekarang sendirian siapa yang sialan",
+      "refs": [
+        "Sekarang sendiri siapa yang sial"
+      ]
+    },
+    {
+      "pred": "Saya sudah mencoba",
+      "refs": [
+        "Saya sudah mencoba"
+      ]
+    },
+    {
+      "pred": "Pekerjaan sementara jika berafiliasi membutuhkan gaji",
+      "refs": [
+        "Berlomba saat hubungan butuh nafkah"
+      ]
+    },
+    {
+      "pred": "Jenis lalat terbang tinggi saat linting",
+      "refs": [
+        "Seperti terbang tinggi saat memutar lagu"
+      ]
+    },
+    {
+      "pred": "Sesuai atau kali Keluaran?",
+      "refs": [
+        "Mungkin memang untuk aku"
+      ]
+    },
+    {
+      "pred": "Apakah kamu mengatakan apa barusan?",
+      "refs": [
+        "Apa yang kamu bilang tadi?"
+      ]
+    },
+    {
+      "pred": "Bingung nanti sial",
+      "refs": [
+        "Bingung nanti bisa sial"
+      ]
+    },
+    {
+      "pred": "Sa su cinta mati sama kamu",
+      "refs": [
+        "Aku sudah cinta mati sama kamu"
+      ]
+    },
+    {
+      "pred": "Lebih kental dari lendir",
+      "refs": [
+        "Lebih kuat dari apa pun"
+      ]
+    },
+    {
+      "pred": "tong bermain basket pagi",
+      "refs": [
+        "Kami bermain basket pagi"
+      ]
+    },
+    {
+      "pred": "Bertahan dengan ini, tetapi tidak sampai",
+      "refs": [
+        "Bertahan denganmu, namun tak sampai"
+      ]
+    },
+    {
+      "pred": "Apakah kamu sudah berbicara keras?",
+      "refs": [
+        "Apakah kamu berbicara keras?"
+      ]
+    },
+    {
+      "pred": "Saya minta maaf",
+      "refs": [
+        "Kamu tidak perlu sesali"
+      ]
+    },
+    {
+      "pred": "tong masak mie instan",
+      "refs": [
+        "Kami memasak mie instan"
+      ]
+    },
+    {
+      "pred": "Anda sayang siapa yang Anda cintai",
+      "refs": [
+        "Kamu sayang aku, tapi cinta kamu dibagi ke berapa orang"
+      ]
+    },
+    {
+      "pred": "Sedang tidur malam di kamar",
+      "refs": [
+        "Mereka tidur malam di kamar"
+      ]
+    },
+    {
+      "pred": "Namun, tidak sampai setengahnya.",
+      "refs": [
+        "Meskipun aku bersamanya"
+      ]
+    },
+    {
+      "pred": "Seperti gambar tra mo say",
+      "refs": [
+        "Seperti gambar, tak bisa kuhapus"
+      ]
+    },
+    {
+      "pred": "Baiklah, Pak.",
+      "refs": [
+        "Mereka lihat aku senang, mereka tidak suka"
+      ]
+    },
+    {
+      "pred": "Tuhan menemukan indah saja oh Keluaran:",
+      "refs": [
+        "Tuhan pertemukan hanya dengan indah"
+      ]
+    },
+    {
+      "pred": "Berikut ini adalah daftar pertanyaan-pertanyaan yang tersedia",
+      "refs": [
+        "Untukmu uang dan waktu"
+      ]
+    },
+    {
+      "pred": "Percaya rasanya untuk mendengar cerita",
+      "refs": [
+        "Percaya perasaan jangan dengar cerita."
+      ]
+    },
+    {
+      "pred": "Cinta palsu yang kau berikan",
+      "refs": [
+        "Cinta palsu yang kamu beri"
+      ]
+    },
+    {
+      "pred": "Yang bagus juga bukan de saja",
+      "refs": [
+        "Yang baik itu bukan cuma dia"
+      ]
+    },
+    {
+      "pred": "Akhirnya, tibalah yang terakhir.",
+      "refs": [
+        "Tapi akhirnya kamu yang jadi terakhir"
+      ]
+    },
+    {
+      "pred": "Setelah selesai, ternyata ia sudah cukup.",
+      "refs": [
+        "Saya kenyang"
+      ]
+    },
+    {
+      "pred": "Terjemahan Bahasa Indonesia: Bulan Mei kita ke Wamena sayang saya janji Keluaran:",
+      "refs": [
+        "Bulan Mei kita ke Wamena sayang, aku janji"
+      ]
+    },
+    {
+      "pred": "Jarang-jarang se niat begini",
+      "refs": [
+        "Jarang-jarang aku berniat seperti ini"
+      ]
+    },
+    {
+      "pred": "Karena kalau sa su bilang Keluaran:",
+      "refs": [
+        "Karena kalau saya sudah bilang."
+      ]
+    },
+    {
+      "pred": "Kasih ini begitu curiga",
+      "refs": [
+        "Sayang kamu begitu curiga."
+      ]
+    },
+    {
+      "pred": "Meski bersama waktu su berlalu",
+      "refs": [
+        "Meski waktu telah berlalu"
+      ]
+    },
+    {
+      "pred": "Sedang bermain drum di studio",
+      "refs": [
+        "Mereka bermain drum di studio"
+      ]
+    },
+    {
+      "pred": "Saya sudah berusaha membuatmu bahagia",
+      "refs": [
+        "Aku sudah berusaha memberimu bahagia"
+      ]
+    },
+    {
+      "pred": "Huff baby ini pu mulut mau amis",
+      "refs": [
+        "Huff sayang mulutmu amis"
+      ]
+    },
+    {
+      "pred": "Lihatlah aku senyum bahagia",
+      "refs": [
+        "Melihat kamu dan mereka tersenyum bahagia."
+      ]
+    },
+    {
+      "pred": "Untuk masak ikan goreng",
+      "refs": [
+        "Mereka memasak ikan goreng"
+      ]
+    },
+    {
+      "pred": "Setelah membaca buku cerita Keluaran:",
+      "refs": [
+        "Mereka membaca buku cerita"
+      ]
+    },
+    {
+      "pred": "Ternyata barang su di dalam Keluaran:",
+      "refs": [
+        "Ternyata semuanya sudah terjadi"
+      ]
+    },
+    {
+      "pred": "saya pikir lagi",
+      "refs": [
+        "pikir lagi"
+      ]
+    },
+    {
+      "pred": "Namun, untuk itu, jangan lupa kisah dulu",
+      "refs": [
+        "Tapi jangan lupa cerita kita dulu"
+      ]
+    },
+    {
+      "pred": "Dan di sini berkumpullah orang-orang berkumpul dan duduk adat-istiadat:",
+      "refs": [
+        "Dan di sini semua berkumpul dengan adat"
+      ]
+    },
+    {
+      "pred": "Saya mendengar radio pagi",
+      "refs": [
+        "Saya mendengar radio pagi"
+      ]
+    },
+    {
+      "pred": "Silahkan masuk ke dalamnya.",
+      "refs": [
+        "Saya sudah siap"
+      ]
+    },
+    {
+      "pred": "Terima kasih atas ucapan terima kasih.",
+      "refs": [
+        "Kamu tidak balas perasaanku"
+      ]
+    },
+    {
+      "pred": "mau jalan sampai mana",
+      "refs": [
+        "mau jalan sejauh mana"
+      ]
+    },
+    {
+      "pred": "Bera Keluaran:",
+      "refs": [
+        "Berak"
+      ]
+    },
+    {
+      "pred": "Berapa lama?",
+      "refs": [
+        "Kamu mau ke mana?"
+      ]
+    },
+    {
+      "pred": "Saya merasa kesal.",
+      "refs": [
+        "Saya pusing"
+      ]
+    },
+    {
+      "pred": "Berbicaralah ia dengan seorang teman yang dekat dengan Keluaran:",
+      "refs": [
+        "Saya berbicara dengan teman dekat"
+      ]
+    },
+    {
+      "pred": "satu tra ada di rumahnya",
+      "refs": [
+        "Saya tidak ada di rumah ya"
+      ]
+    },
+    {
+      "pred": "di mana kamu? sedang rindu",
+      "refs": [
+        "di mana kamu? aku rindu kamu"
+      ]
+    },
+    {
+      "pred": "De Keluaran:",
+      "refs": [
+        "Dia"
+      ]
+    },
+    {
+      "pred": "Proses perkembangannya:",
+      "refs": [
+        "Tidak berkembang"
+      ]
+    },
+    {
+      "pred": "Ini teman-teman di sini",
+      "refs": [
+        "Kamu menemaniku di sini"
+      ]
+    },
+    {
+      "pred": "Apakah kamu mandi sore?",
+      "refs": [
+        "Apakah kamu mandi sore?"
+      ]
+    },
+    {
+      "pred": "Anda juga tidak dapat di mana Keluaran",
+      "refs": [
+        "kamu mau dapat juga di mana"
+      ]
+    },
+    {
+      "pred": "Keluaran:",
+      "refs": [
+        "Meninggalkan"
+      ]
+    },
+    {
+      "pred": "Saya akan melupakannya",
+      "refs": [
+        "Kamu tidak akan melupakan aku"
+      ]
+    },
+    {
+      "pred": "Hati yang keras yang dapat menggantikan Keluaran:",
+      "refs": [
+        "Hati yang baru tidak bisa tergantikan"
+      ]
+    },
+    {
+      "pred": "Sejauh apa ini melangkah",
+      "refs": [
+        "Terlepas dari jauh mana kamu melangkah,"
+      ]
+    },
+    {
+      "pred": "Apakah ini sampai ke pantai?",
+      "refs": [
+        "Apakah kamu ke pantai kami?"
+      ]
+    },
+    {
+      "pred": "dimana teman-teman ini",
+      "refs": [
+        "di mana aku menemanimu"
+      ]
+    },
+    {
+      "pred": "Sejak lama sedang berjuang",
+      "refs": [
+        "Sekian lama aku berjuang"
+      ]
+    },
+    {
+      "pred": "Baiklah jika sampai jangan lupa oleh-oleh Keluaran:",
+      "refs": [
+        "Oke tante, kalau sudah sampai jangan lupa oleh-oleh"
+      ]
+    },
+    {
+      "pred": "Kalau kamu pikir begitu, maka kamu tidak akan perlakukan dengan sewenang-wenang",
+      "refs": [
+        "Kamu pikir aku ini apa, jadi kamu mau memperlakukan dengan seenaknya"
+      ]
+    },
+    {
+      "pred": "Saya belajar bahasa Inggris",
+      "refs": [
+        "Saya belajar bahasa Inggris"
+      ]
+    },
+    {
+      "pred": "Sekarang su tra bisa, su tara bersama",
+      "refs": [
+        "Sekarang aku tidak bisa, kita tidak bersama"
+      ]
+    },
+    {
+      "pred": "Berikut ini adalah hasilnya:",
+      "refs": [
+        "Saya ikut kamu"
+      ]
+    },
+    {
+      "pred": "Dia mulai menjalin hubungan yang baik",
+      "refs": [
+        "Tapi aku mulai membaiki hubungan"
+      ]
+    },
+    {
+      "pred": "Apakah Anda merasa ragu?",
+      "refs": [
+        "Jangan membuang rasa ragu"
+      ]
+    },
+    {
+      "pred": "Apakah kamu sudah berbicara dengan guru?",
+      "refs": [
+        "Apakah kamu berbicara dengan guru?"
+      ]
+    },
+    {
+      "pred": "Kalau memang ini sudah bosan",
+      "refs": [
+        "Jika memang kamu sudah bosan"
+      ]
+    },
+    {
+      "pred": "Saya membeli sayur dan ikan",
+      "refs": [
+        "Mereka membeli sayur dan ikan"
+      ]
+    },
+    {
+      "pred": "Apa kamu berbicara dengan siapa?",
+      "refs": [
+        "Kamu berbicara dengan siapa?"
+      ]
+    },
+    {
+      "pred": "Sayang kasih enak ya",
+      "refs": [
+        "Sayang, kasih yang nyaman ya"
+      ]
+    },
+    {
+      "pred": "Tanya dong pasti bilang ini wanita beruntung",
+      "refs": [
+        "Coba tanya, pasti dia akan bilang kamu wanita beruntung"
+      ]
+    },
+    {
+      "pred": "Baiklah.",
+      "refs": [
+        "Mereka menyukaimu"
+      ]
+    },
+    {
+      "pred": "Tentu saja kamu mencari saya",
+      "refs": [
+        "Kamu pasti mencari aku"
+      ]
+    },
+    {
+      "pred": "Awal yang harum, berakhir dengan bangkai",
+      "refs": [
+        "Awal yang harum, berakhir dengan busuk"
+      ]
+    },
+    {
+      "pred": "Kakak tidak mampu",
+      "refs": [
+        "Kakak tidak mampu"
+      ]
+    },
+    {
+      "pred": "Sa ingat beberapa moment lalu Keluaran:",
+      "refs": [
+        "Aku teringat beberapa momen lalu"
+      ]
+    },
+    {
+      "pred": "Saya mendengar musik keras",
+      "refs": [
+        "Mereka mendengarkan musik keras"
+      ]
+    },
+    {
+      "pred": "Anjani Anjani setengah mati seorang pejuang untuk ayam",
+      "refs": [
+        "Anjani Anjani setengah mati aku sudah jaga untukmu"
+      ]
+    },
+    {
+      "pred": "Barang ini yang membuat sa begini",
+      "refs": [
+        "Hal inilah yang membuat saya seperti ini."
+      ]
+    },
+    {
+      "pred": "Kalau begitu, siapa?",
+      "refs": [
+        "Siapa namamu? ya"
+      ]
+    },
+    {
+      "pred": "Di meja Keluaran ada tersedia sayur-sayuran.",
+      "refs": [
+        "Tidak ada sayur di meja"
+      ]
+    },
+    {
+      "pred": "Setelah itu ia mencoba berjujukan hati ke batu",
+      "refs": [
+        "Aku coba berjuang tapi hatimu keras"
+      ]
+    },
+    {
+      "pred": "Kalau begitu, silahkan ikut saja di jalan",
+      "refs": [
+        "Kalau ingin pergi, silakan ikut saja jalanmu"
+      ]
+    },
+    {
+      "pred": "enak macam peda deng nih",
+      "refs": [
+        "Enak seperti papeda dan ikan bakar (istimewa)"
+      ]
+    },
+    {
+      "pred": "Kakak tidak mampu uwow uwo",
+      "refs": [
+        "Kau tidak mampu, uwow uwo"
+      ]
+    },
+    {
+      "pred": "Jika hanya teman ini sudah jauh sa kenal",
+      "refs": [
+        "Jika kamu hanya teman, kita sudah jauh dikenal"
+      ]
+    },
+    {
+      "pred": "cukar delang sayang ayam main apa e",
+      "refs": [
+        "sayang kamu main apa itu"
+      ]
+    },
+    {
+      "pred": "teman sedang tidur nyenyak",
+      "refs": [
+        "Temani aku tidur di sana"
+      ]
+    },
+    {
+      "pred": "Saya jatuh cinta",
+      "refs": [
+        "aku jatuh cinta"
+      ]
+    },
+    {
+      "pred": "sumpah sayang aku miss",
+      "refs": [
+        "sungguh sayang, aku merindukanmu"
+      ]
+    },
+    {
+      "pred": "Terima kasih telah mendengarnya",
+      "refs": [
+        "Kasihan, yang kau dengar belum tentu benar"
+      ]
+    },
+    {
+      "pred": "Setelah berhenti, ia pun berhenti",
+      "refs": [
+        "Berhentilah dengan ikatan-ikatan palsu"
+      ]
+    },
+    {
+      "pred": "Dan biarkan sa simpan dan biarkan se simpan",
+      "refs": [
+        "Aku biarkan saja aku menyimpan"
+      ]
+    },
+    {
+      "pred": "iya iya benar",
+      "refs": [
+        "sungguh benar, iya"
+      ]
+    },
+    {
+      "pred": "Jangan pergi ke sekolah pagi",
+      "refs": [
+        "Kami pergi ke sekolah pagi"
+      ]
+    },
+    {
+      "pred": "Setidaknya untuk kas tinggal tanpa ada penjelasan",
+      "refs": [
+        "Setidaknya jangan tinggal pergi tanpa penjelasan"
+      ]
+    },
+    {
+      "pred": "Kas patah Anadok pu hati ini tidak baik ya",
+      "refs": [
+        "Kamu patahkan hati saya, ini tidak baik"
+      ]
+    },
+    {
+      "pred": "Ini musik tong masak dengan bumbu racikan",
+      "refs": [
+        "Musik ini kami buat dengan bumbu racikan"
+      ]
+    },
+    {
+      "pred": "Instruksi: Wey culun berhenti mengkhayal Keluaran:",
+      "refs": [
+        "Woy culun, hentikan mimpi kosong"
+      ]
+    },
+    {
+      "pred": "Tinggalkan di pikiran nanti jadi masalah lah ya",
+      "refs": [
+        "Tertinggal di pikiran dan jadi masalah"
+      ]
+    },
+    {
+      "pred": "Yoi sa masih pakai nomor lama",
+      "refs": [
+        "Iya aku masih pakai nomor lama"
+      ]
+    },
+    {
+      "pred": "Cinta sejati",
+      "refs": [
+        "oh, cintaku"
+      ]
+    },
+    {
+      "pred": "Pada saat mana ada yang bisa menggantikan Keluaran:",
+      "refs": [
+        "Tidak ada yang bisa menggantikan"
+      ]
+    },
+    {
+      "pred": "Apakah Anda sedang belajar bahasa Inggris hari ini?",
+      "refs": [
+        "Apakah kamu belajar bahasa Inggris hari ini?"
+      ]
+    },
+    {
+      "pred": "Apakah kamu menyukai lagu itu?",
+      "refs": [
+        "Saya suka dengan lagu itu?"
+      ]
+    },
+    {
+      "pred": "Anda mengambil jantung lapis deng hati ini",
+      "refs": [
+        "Kau kuambil hati lapis ini"
+      ]
+    },
+    {
+      "pred": "Semuanya hanya mau keluar",
+      "refs": [
+        "Semua hanya bohong"
+      ]
+    },
+    {
+      "pred": "Terjemahan Bahasa Indonesia: Cinta harus ada perjuangan, bahagia tak semudah yang dipikirkan",
+      "refs": [
+        "Cinta harus ada perjuangan, kebahagiaan tidak semudah yang dipikirkan."
+      ]
+    },
+    {
+      "pred": "Apakah anda sudah makan siang?",
+      "refs": [
+        "Apakah kamu makan siang?"
+      ]
+    },
+    {
+      "pred": "Sungguh sedih dan galau datang mengganggu Keluaran:",
+      "refs": [
+        "Sedih dan galau datang mengganggu."
+      ]
+    },
+    {
+      "pred": "Saya makan siang di kantin",
+      "refs": [
+        "Saya makan siang di kantin"
+      ]
+    },
+    {
+      "pred": "Apakah alam su tra akur dengan tong?",
+      "refs": [
+        "Apakah alam ini tidak selaras dengan kita?"
+      ]
+    },
+    {
+      "pred": "Lalu pergi ke kantor Keluaran:",
+      "refs": [
+        "Mereka pergi ke kantor"
+      ]
+    },
+    {
+      "pred": "Lalu ia berkata, \"Hai anakku, lihatlah bagaimana engkau menjadi sombong dan sombong.",
+      "refs": [
+        "Gemetar melihat kecantikanmu, sungguh"
+      ]
+    },
+    {
+      "pred": "Satu tra akan pergi kas tinggal",
+      "refs": [
+        "Saya tidak akan pergi meninggalkanmu"
+      ]
+    },
+    {
+      "pred": "Saya pergi ke mall dengan tong",
+      "refs": [
+        "Saya pergi ke mall bersama kami"
+      ]
+    },
+    {
+      "pred": "Kaya memenangkan medali",
+      "refs": [
+        "Seperti memenangkan medali"
+      ]
+    },
+    {
+      "pred": "Mereka berusaha memberikan apa yang mereka inginkan.",
+      "refs": [
+        "Aku sudah berusaha memberi yang kamu mau"
+      ]
+    },
+    {
+      "pred": "Mungkin su jadi hobby jalan cerita orang Keluaran:",
+      "refs": [
+        "Mungkin sudah jadi hobi menyebar cerita orang"
+      ]
+    },
+    {
+      "pred": "Sa menyapu halaman rumah Keluaran:",
+      "refs": [
+        "Saya menyapu halaman rumah"
+      ]
+    },
+    {
+      "pred": "Bahasa inggrisnya:",
+      "refs": [
+        "(ungkapan kaget / heran / kagum)"
+      ]
+    },
+    {
+      "pred": "Bahasa isyarat: Sunyi menghiasi malam Keluaran:",
+      "refs": [
+        "Malam jadi sunyi"
+      ]
+    },
+    {
+      "pred": "Saya mengambil kopi",
+      "refs": [
+        "Saya mengambil kopi"
+      ]
+    },
+    {
+      "pred": "Jujur sudah sayang se tra mengerti",
+      "refs": [
+        "Jujur, sayang, aku tidak mengerti"
+      ]
+    },
+    {
+      "pred": "Sedang tidur pukul 9 malam",
+      "refs": [
+        "Saya tidur jam 9 malam"
+      ]
+    },
+    {
+      "pred": "aduh ini jahat patah sepuluh hati",
+      "refs": [
+        "aduh kamu jahat patahkan hatiku"
+      ]
+    }
+  ]
+}

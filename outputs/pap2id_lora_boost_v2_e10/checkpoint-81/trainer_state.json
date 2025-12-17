@@ -1,0 +1,76 @@
+{
+  "best_metric": 9.072557753727367,
+  "best_model_checkpoint": "C:\\cendol-mt5\\outputs\\pap2id_lora_boost_v2_e10\\checkpoint-40",
+  "epoch": 1.9877300613496933,
+  "eval_steps": 500,
+  "global_step": 81,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.024539877300613498,
+      "grad_norm": 5.659684658050537,
+      "learning_rate": 1.6666666666666667e-08,
+      "loss": 5.1914,
+      "step": 1
+    },
+    {
+      "epoch": 0.9815950920245399,
+      "eval_bleu": 9.072557753727367,
+      "eval_chrf": 28.620049789312585,
+      "eval_loss": 4.7818803787231445,
+      "eval_runtime": 70.6542,
+      "eval_samples_per_second": 1.613,
+      "eval_steps_per_second": 0.41,
+      "step": 40
+    },
+    {
+      "epoch": 1.2269938650306749,
+      "grad_norm": 0.7383723258972168,
+      "learning_rate": 8.333333333333333e-07,
+      "loss": 5.1586,
+      "step": 50
+    },
+    {
+      "epoch": 1.9877300613496933,
+      "eval_bleu": 9.02862698330363,
+      "eval_chrf": 28.46864926797364,
+      "eval_loss": 4.782749652862549,
+      "eval_runtime": 61.4338,
+      "eval_samples_per_second": 1.856,
+      "eval_steps_per_second": 0.472,
+      "step": 81
+    }
+  ],
+  "logging_steps": 50,
+  "max_steps": 400,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "EarlyStoppingCallback": {
+      "args": {
+        "early_stopping_patience": 3,
+        "early_stopping_threshold": 0.0
+      },
+      "attributes": {
+        "early_stopping_patience_counter": 1
+      }
+    },
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 173002383562752.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}

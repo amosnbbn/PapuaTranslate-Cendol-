@@ -1,0 +1,13 @@
+{
+  "valid": {
+    "BLEU": 14.409523698598537,
+    "chrF": 42.99390440589938
+  },
+  "test": {
+    "BLEU": 12.473659251430622,
+    "chrF": 44.29094124261353
+  },
+  "hard_csv": "C:/cendol-mt5/outputs/pap2id_curriculum\\cycle2_hard_train.csv",
+  "best_hard": "C:/cendol-mt5/outputs/pap2id_curriculum\\cycle2_hard_ft",
+  "best_full": "C:/cendol-mt5/outputs/pap2id_curriculum\\cycle2_full_polish"
+}

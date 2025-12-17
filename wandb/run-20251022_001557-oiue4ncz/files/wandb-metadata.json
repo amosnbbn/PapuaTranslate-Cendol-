@@ -1,0 +1,56 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.2",
+  "startedAt": "2025-10-21T17:15:57.061675Z",
+  "args": [
+    "--base_dir",
+    "C:/ML/models/cendol-mt5-base-inst",
+    "--adapter_init",
+    "C:/cendol-mt5/outputs/pap2id_phase7_e10/checkpoint-276",
+    "--splits_dir",
+    "C:/cendol-mt5/data_splits_json/json",
+    "--out_dir",
+    "C:/cendol-mt5/outputs/pap2id_phase7_e10_wandb",
+    "--epochs",
+    "10",
+    "--batch",
+    "4",
+    "--grad_accum",
+    "8",
+    "--lr",
+    "3e-6",
+    "--beam",
+    "6"
+  ],
+  "program": "C:\\cendol-mt5\\train_phase7_e10_wandb.py",
+  "codePath": "train_phase7_e10_wandb.py",
+  "codePathLocal": "train_phase7_e10_wandb.py",
+  "email": "amosvalentino95@gmail.com",
+  "root": "C:\\cendol-mt5",
+  "host": "LAPTOP-TCG8H7Q6",
+  "executable": "C:\\cendol-mt5\\.venv\\Scripts\\python.exe",
+  "cpu_count": 8,
+  "cpu_count_logical": 16,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "510745636864",
+      "used": "468537327616"
+    }
+  },
+  "memory": {
+    "total": "33492590592"
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 3050 Laptop GPU",
+      "memoryTotal": "4294967296",
+      "cudaCores": 2048,
+      "architecture": "Ampere",
+      "uuid": "GPU-ee9cf7e8-8b2b-8dde-68f4-7d018c3aa883"
+    }
+  ],
+  "cudaVersion": "12.8",
+  "writerId": "a0e33opls7u61j5q7bczcosbf9szcf2a"
+}

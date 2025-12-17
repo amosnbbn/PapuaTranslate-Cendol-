@@ -1,0 +1,13 @@
+{
+  "valid": {
+    "BLEU": 15.315226895160254,
+    "chrF": 46.62099435391422
+  },
+  "test": {
+    "BLEU": 15.315533212057561,
+    "chrF": 46.862641961899996
+  },
+  "hard_csv": "C:/cendol-mt5/outputs/polish_lowlr\\cycle1_hard_train.csv",
+  "best_hard": "C:/cendol-mt5/outputs/polish_lowlr\\cycle1_hard_ft",
+  "best_full": "C:/cendol-mt5/outputs/polish_lowlr\\cycle1_full_polish"
+}

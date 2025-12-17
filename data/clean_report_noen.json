@@ -1,0 +1,17 @@
+{
+  "input": "/content/drive/MyDrive/Datesetbaru/DATASET.xlsx",
+  "output": "/content/drive/MyDrive/Datesetbaru/DATASET_CLEAN_NOEN.csv",
+  "rows_before": 3435,
+  "rows_after_filter": 3371,
+  "rows_after_dedup": 2342,
+  "dropped_english": 64,
+  "dropped_short": 0,
+  "params": {
+    "case_fold": false,
+    "min_src_tok": 1,
+    "min_tgt_tok": 1,
+    "filter_en_source": true,
+    "filter_en_target": true,
+    "max_char": 4096
+  }
+}

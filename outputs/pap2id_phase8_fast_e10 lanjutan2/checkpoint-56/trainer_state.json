@@ -1,0 +1,42 @@
+{
+  "best_global_step": 56,
+  "best_metric": 1.9467049837112427,
+  "best_model_checkpoint": "C:\\cendol-mt5\\outputs\\pap2id_phase8_fast_e10 lanjutan2\\checkpoint-56",
+  "epoch": 1.0,
+  "eval_steps": 500,
+  "global_step": 56,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 1.0,
+      "eval_loss": 1.9467049837112427,
+      "eval_runtime": 12.7103,
+      "eval_samples_per_second": 17.388,
+      "eval_steps_per_second": 4.406,
+      "step": 56
+    }
+  ],
+  "logging_steps": 200,
+  "max_steps": 560,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 10,
+  "save_steps": 500,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 123812209732608.0,
+  "train_batch_size": 4,
+  "trial_name": null,
+  "trial_params": null
+}
